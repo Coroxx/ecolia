@@ -60,6 +60,10 @@
     body::-webkit-scrollbar {
         width: 10px;
     }
+
+    html, body{
+        overflow-x: hidden;
+    }
     
     body::-webkit-scrollbar-track {
         background-color: darkgrbleuy;
@@ -90,7 +94,7 @@
     }, (4000));
 </script>
 
-<body class="bg-blue-500 h-full overflow-y-hidden overflow-x-hidden font-default">
+<body class="bg-blue-500 h-full overflow-y-hidden font-default">
     <div id="particles-js" class="fixed w-full h-full -z-1"></div>
 
     <div id="modal">
@@ -264,7 +268,7 @@
                         <div class="lg:flex-1">
                             <div class="m-auto w-96">
                                 <p class="text-2xl">Sacha James</p>
-                                <p class="text-xl lg:w-full w-2/3">Blockchain développeur & fondateur</p>
+                                <p class="text-xl lg:w-full w-2/3 lg:m-0 m-auto">Blockchain développeur & fondateur</p>
                                 <a href="https://instagram.com/sacha_james" target="_blank">
                                 <img src="./assets/instagram.png" class="w-6 pb-4 lg:m-0 m-auto" alt="instagramLogo">
                              </a>
@@ -276,7 +280,7 @@
 
                             <div class="m-auto w-96">
                                 <p class="text-2xl">Elliot Feuillade</p>
-                                <p class="text-xl lg:w-full w-10/12">Co-fondateur / développeur Web / Conception graphique</p>
+                                <p class="text-xl lg:w-full lg:m-0 m-auto w-10/12">Co-fondateur / développeur Web / Conception graphique</p>
                                 <a href="https://instagram.com/root_elliot" target="_blank">
                                 <img src="./assets/instagram.png" class="w-6 pb-4  mt-4 lg:m-0 m-auto" alt="instagramLogo">
                                 </a>
